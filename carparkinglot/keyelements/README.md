@@ -30,7 +30,7 @@ commands from that file
 
 **System Details**
 
-    1. Operating system: Kubuntu 18.04.4 LTS
+    1. Operating system: ubuntu 18.04.4 LTS
     2. Python version 3.6
     3. shell used : Bash
     4. Python path: /usr/bin/python3
@@ -58,12 +58,8 @@ through outside won't work.
     7. slot_number_for_registration_number
     8. exit
 
+**instruction on how to use*
 
-
-
-**instruction on how to use**
-    
-   
         a. go to bin folder
         b. in bin folder run command `bash setup.sh`
         c. go to bin folder again
