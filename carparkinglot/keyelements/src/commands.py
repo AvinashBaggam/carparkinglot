@@ -14,17 +14,8 @@ commands = {'leave': 'LEAVE',
             'exit': 'EXIT'
             }
 
-
-# command functions
-
-
 def command(line, parking_lot):
-    """
-    it it used to run the commands mentioned in prking lot system
-    :param line: command given to system to process
-    :param parking_lot: parking_lot object
-    :return: data as per command
-    """
+   
 
     data = line.split()
     if data[0] in commands:
@@ -105,6 +96,4 @@ def command(line, parking_lot):
 
     else:
         return 'invalid command'
-        # print('valid commands are :')
-        # for i, v in enumerate(commands):
-        #     print("{}. {}".format(i + 1, v))
+        
