@@ -7,9 +7,7 @@ class Error(Exception):
 
 
 class FileError(Error):
-    """
-    no file present in system or  permission error
-    """
+    
     def __init__(self, msg):
         self.msg = msg
 
@@ -18,7 +16,7 @@ class FileError(Error):
 
 
 class SizeError(Error):
-    """SIZE ERROR : invalid size for parking lot"""
+
     def __init__(self, msg):
         self.msg = msg
 
@@ -27,7 +25,7 @@ class SizeError(Error):
 
 
 class SlotError(Error):
-    """slot error , check if it is already empty or invalid"""
+    """check if it is already empty or invalid,slot error"""
 
     def __init__(self, msg):
         self.msg = msg
@@ -37,7 +35,7 @@ class SlotError(Error):
 
 
 class CarError(Error):
-    """ no car with this color found"""
+    """ car with this color not found"""
     def __init__(self, msg):
         self.msg = msg
 
