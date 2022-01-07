@@ -1,10 +1,5 @@
 # Parking lot
 
-    Author: Prashant Rana
-    Email:  sahasrara62@gmail.com
-
-
-
 **Problem Statement**
 
 I own a multi-storey parking lot that can hold up to 'n' cars at any given point in time.
