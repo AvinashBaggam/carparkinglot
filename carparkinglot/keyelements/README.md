@@ -63,22 +63,14 @@ through outside won't work.
 
 **instruction on how to use**
     
-1. To install setup:
    
         a. go to bin folder
         b. in bin folder run command `bash setup.sh`
+        c. go to bin folder again
+        d. run bash command `bash run_functional_tests.sh`
+        e. go to bin folder
+        f. run `bash parking_lot.sh` 
         
-2. To run the functional test do:
-       
-        a. go to bin folder
-        b. run bash command `bash run_functional_tests.sh`
-     
-3. To run the system do with out the input file
-
-        a. go to bin folder
-        b. run `bash parking_lot.sh` 
-        
-4. To run  application:
    
    In base folder i.e. <b>parking_lot</b>, run command
    
